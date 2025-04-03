@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    /* background-color: grey; */
 }
 
 header{
@@ -10,13 +11,14 @@ header{
     padding-left:40px;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.868);
 }
 header h1{
     text-align: center;
 }
 header a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .navbar ul{
@@ -28,8 +30,62 @@ header a{
 }
 
 .navbar i{
-    color: black;
+    color: white;
+} 
+
+.banner{
+    height:70vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.bannerInformation{
+    color:white;
+    height:400px;
+    width:450px;
+    /* border:2px solid black; */
+    padding: 50px 0px 0px 50px; 
+}
+#bannerPara1 {
+    font-size: larger;
+    padding: 35px 0px 15px 20px;
+}
+#bannerPara4{
+    font-size: larger;
+    padding: 20px 0px 25px 20px;
+}
+
+#bannerPara4 strike{
+    opacity: 0.6;
+}
+
+#bannerPara2{
+    font-size: xx-large;
+    padding: 0px 0px 0px 20px;
+}
+#bannerPara3{
+    font-size: xx-large;
+    padding: 0px 0px 20px 20px;
+}
+
+#ShopNow{
+    background-color: red;
+    color: white;
+    height: 35px;
+    width:90px;
+    border-radius: 10%;
+    margin: 0px 0px 20px 20px;
+}
+
+.featuredProducts{
+    /* background-color: grey; */
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
 
 
 

@@ -4,16 +4,16 @@
 }
 
 .container{
-    height: 60vh;
+    height: 72vh;
     width:24vw;
     border: 2px solid black;
-    margin:11rem 35rem;
+    margin:6.6rem 35rem;
 }
 
 .container h1{
     padding: 8px 0px 8px 20px;
 }
-.container p{
+.para1{
     padding: 0px 0px 30px 20px;
 }
 .container #Username{
@@ -45,4 +45,45 @@
 }
 .input{
     padding-left: 10px;
+}
+
+.para2{
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    margin-top: 28px;
+    justify-content: space-around;
+    
+}
+
+.facebook{
+    width:80px;
+    height:30px;
+    text-align: center;
+    border:2px solid black;
+    padding-top: 6px;
+    background-color: #1877F2;
+    color:white;
+}
+
+.google{
+    width:80px;
+    height:30px;
+    text-align: center;
+    border:2px solid black;
+    padding-top: 6px;
+    background-color: red;
+    color:white;
+}
+
+.twitter{
+    width:80px;
+    height:30px;
+    text-align: center;
+    border:2px solid black;
+    padding-top: 6px;
+    background-color: #1DA1F2;
+    color:white;
 }
