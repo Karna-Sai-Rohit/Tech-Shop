@@ -116,22 +116,81 @@ header a{
     display: flex;
     justify-content: space-evenly;
     margin-top: 60px;
+    
 }
+
 .topProductselection a{
-    /* border: 2px solid black; */
+    
     padding: 8px;
     text-decoration: none;
     color: black;
 }
 
+.topProductselection .prod1 a:hover{
+    background-color: red;
+    border-radius: 12%;
+    color: white; 
+}
 .topProductselection a:hover{
     background-color: red;
+    padding: 8px;
     border: 2px solid black;
     border-radius: 12%;
     color: white;
-    
 }
 
+.prod1 {
+    background-color: red;
+    border-radius: 12%;
+    text-align: center;
+}
+
+.displayCards{
+    margin-top: 60px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* align-items: center; */
+    
+    row-gap: 20px;
+}
+
+.displayCardindividual{
+    /* height: 389px;
+    width:350px;
+    border: 2px solid red; */
+    /* padding-left: 20px; */
+    height: 430px;
+    width: 287px;
+    border: 2px solid red;
+    padding: 20px 0px 0px 40px;
+}
+
+.displayCardindividual hr{
+    width: 250px;
+}
+
+.displayCardindividual p{
+    margin: 8px;
+}
+
+.CardButton{
+    background-color: red;
+    color: white;
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.browseAllProducts{
+    height: 450px;
+    width: 287px;
+    border: 2px solid red;
+    text-align: center;
+}
+.browseAllProducts1 {
+    padding-top: 180px;
+}
 
 
 
